@@ -1,6 +1,6 @@
 name: flutter_storage_info_plus
 description: "A Flutter plugin project for get total and free storage info for android and ios."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/richanshah/flutter_storage_info
 
 environment:
