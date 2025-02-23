@@ -17,7 +17,7 @@ A Flutter plugin to retrieve **free storage** and **available storage** on both 
    dependencies:
      flutter:
        sdk: flutter
-     flutter_storage_info:
+     flutter_storage_info_plus:
    ```
 2. **Run**:
    ```sh
@@ -30,7 +30,7 @@ A Flutter plugin to retrieve **free storage** and **available storage** on both 
 
 ### **1. Import the package**
 ```dart
-import 'package:flutter_storage_info/flutter_storage_info.dart';
+import 'package:flutter_storage_info_plus/flutter_storage_info_plus.dart';
 ```
 
 ### **2. Fetch Storage Info**
