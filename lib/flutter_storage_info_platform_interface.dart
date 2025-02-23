@@ -1,5 +1,6 @@
-import 'package:flutter_storage_info/flutter_storage_info_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
+
+import 'flutter_storage_info_method_channel.dart';
 
 abstract class FlutterStorageInfoPlatform extends PlatformInterface {
   /// Constructs a FlutterStorageInfoPlatform.
@@ -7,7 +8,8 @@ abstract class FlutterStorageInfoPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static FlutterStorageInfoPlatform _instance = MethodChannelFlutterStorageInfo();
+  static FlutterStorageInfoPlatform _instance =
+      MethodChannelFlutterStorageInfo();
 
   /// The default instance of [FlutterStorageInfoPlatform] to use.
   ///

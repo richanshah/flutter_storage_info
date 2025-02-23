@@ -61,8 +61,10 @@ class _StorageInfoScreenState extends State<StorageInfoScreen> {
               ElevatedButton(
                 onPressed: fetchFreeStorage,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF616DA1), // Your preferred color
-                  padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
+                  backgroundColor:
+                      const Color(0xFF616DA1), // Your preferred color
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -86,8 +88,10 @@ class _StorageInfoScreenState extends State<StorageInfoScreen> {
               ElevatedButton(
                 onPressed: fetchAvailableStorage,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF616DA1), // Your preferred color
-                  padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
+                  backgroundColor:
+                      const Color(0xFF616DA1), // Your preferred color
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),

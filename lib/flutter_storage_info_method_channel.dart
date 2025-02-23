@@ -10,13 +10,15 @@ class MethodChannelFlutterStorageInfo extends FlutterStorageInfoPlatform {
 
   @override
   Future<double?> getFreeStorage() async {
-    final double? freeStorage = await methodChannel.invokeMethod<double>('getFreeStorageData');
+    final double? freeStorage =
+        await methodChannel.invokeMethod<double>('getFreeStorageData');
     return freeStorage;
   }
 
   @override
   Future<double?> getTotalStorage() async {
-    final double? totalStorage = await methodChannel.invokeMethod<double>('getTotalStorageData');
+    final double? totalStorage =
+        await methodChannel.invokeMethod<double>('getTotalStorageData');
     return totalStorage;
   }
 }
